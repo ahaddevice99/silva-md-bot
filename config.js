@@ -6,13 +6,13 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "",
+    SESSION_ID: process.env.SESSION_ID || "Silva~YAwnhKzT#hV85Pdd61QPNTy73XxZ-fqT6fyP-Xg2hL-CBjqQ1obg",
     PREFIX: process.env.PREFIX || ".",
     BOT_NAME: process.env.BOT_NAME || "✦ Silva ✦ MD ✦",
     AUTO_STATUS_REACT: convertToBool(process.env.AUTO_STATUS_REACT, "true"),
     CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🔥,❤️‍🩹,❤️,🩷,🧡,💛,💚,💙,🩵,💜,🤎,🖤,🩶,🤍",
     DELETE_LINKS: convertToBool(process.env.DELETE_LINKS, "false"),
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "254700143167",
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "923404812097",
     OWNER_NAME: process.env.OWNER_NAME || "✦ Silva ✦ MD ✦",
     DESCRIPTION: process.env.DESCRIPTION || "*© ✦ Silva ✦ MD ✦*",
     ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/5uli5p.jpeg",
@@ -26,7 +26,7 @@ module.exports = {
     MODE: process.env.MODE || "both", // both, public, or private
     ALWAYS_ONLINE: convertToBool(process.env.ALWAYS_ONLINE, "true"),
     AUTO_TYPING: convertToBool(process.env.AUTO_TYPING, "true"),
-    AUTO_RECORDING: convertToBool(process.env.AUTO_RECORDING, "false"),
+    AUTO_RECORDING: convertToBool(process.env.AUTO_RECORDING, "true"),
     
     // Anti-Delete Settings
     ANTIDELETE_GROUP: convertToBool(process.env.ANTIDELETE_GROUP, "true"),
@@ -35,4 +35,5 @@ module.exports = {
     // Debug Settings
     DEBUG: convertToBool(process.env.DEBUG, "true")
 };
+
 
